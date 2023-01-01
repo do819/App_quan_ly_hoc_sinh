@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/vienkhungtrongsuot"
+    android:paddingHorizontal="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imageView_khoahoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_avatar_default"
+        />
+    <TextView
+        android:id="@+id/tv_namekhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Name"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tv_timekhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_black"
+        android:text="3 buoi"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_descripkhoahoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="ABDGSIODIDIDODODODO"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_xemthemkhoahoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/red"
+        android:text="Xem thêm"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        />
+
+
+</LinearLayout>

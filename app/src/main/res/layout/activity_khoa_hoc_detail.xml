@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg">
+
+
+    <ImageView
+        android:id="@+id/imageView_bannerkhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_avatar_default"
+        />
+    <TextView
+        android:id="@+id/tv_namekhoahocdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Name"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/tv_titlekhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_black"
+        android:text="3 buoi"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tv_contentkhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="ABDGSIODIDIDODODODO"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_dangkikhoahoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="REGISTER"/>
+
+
+
+</LinearLayout>

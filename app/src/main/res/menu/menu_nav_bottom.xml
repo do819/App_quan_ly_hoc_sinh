@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/grey"
+    >
+        <group android:checkableBehavior="single"
+
+            >
+        <item android:id="@+id/nav_bot_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_bot_learing"
+            android:title="@string/nav_bot_learning"
+            android:icon="@drawable/ic_learning"/>
+        <item android:id="@+id/nav_bot_products"
+            android:title="@string/nav_bot_products"
+            android:icon="@drawable/ic_products"/>
+<!--        <item android:id="@+id/nav_bot_story"-->
+<!--            android:title="@string/nav_bot_story"-->
+<!--            android:icon="@drawable/ic_story"/>-->
+        <item android:id="@+id/nav_bot_blog"
+            android:title="@string/nav_bot_blog"
+            android:icon="@drawable/ic_blog"/>
+
+        </group>
+</menu>

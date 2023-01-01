@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Education LMS</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_learning">Tổng hợp khoá học</string>
+    <string name="nav_products">Khoá học của tôi</string>
+    <string name="nav_story">Câu chuyện học viên</string>
+    <string name="nav_blog">Blog</string>
+    <string name="nav_about">Về chúng tôi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_bot_learning">Khoá học</string>
+    <string name="nav_bot_products">Khoá học của tôi</string>
+    <string name="nav_bot_story">Câu chuyện</string>
+    <string name="nav_bot_blog">Blog</string>
+    <string name="nav_bot_about">About</string>
+
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_sign_out">Sign out</string>
+
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="title_activity_dang_ky_khoa_hoc">DangKyKhoaHoc</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
